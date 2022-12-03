@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="country-picker-flag/css/countrySelect.css">
+  <title>App Home Page</title>
+</head>
+
+<body>
+  <div class="app-top">
+    <div class="container">
+
+      <h1 class="app-top__title">
+        e Scooter Licence
+      </h1>
+      <p class="app-top__subtitle">Homepage</p>
+      <div class="app-top__select-wrapper">
+        <h1 class="app-top__select-title">User Email:</h1>
+        <form class="app-top__select-form" action="#">
+          <input class="app-top__select-input" id="country_selector" type="text">
+          <input class="app-top__select-input" id="country_selector" type="hidden">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="app-tabs">
+    <div class="container">
+      <div class="app-tabs__inner">  
+
+        <div class="app-tabs__items">
+          <a class="app-tabs__item app-tabs__item--active" href="#tab-1">Оverview</a>
+          <a class="app-tabs__item" href="#tab-2">My Tasks</a>
+          <a class="app-tabs__item" href="#tab-3">Process</a>
+          <a class="app-tabs__item" href="#tab-4">QR Code</a>
+        </div> 
+        <div class="app-tabs__contentbox">  
+
+          <div class="app-tabs__content app-tabs__content--active" id="tab-1">  
+            <div class="app-tabs__content-items">  
+
+               <div class="app-tabs__content-item"> 
+                 <h3 class="app-tabs__content-item-title">ACTIVE</h3> 
+                 <img class="app-tabs__content-item-img" src="images/gear.svg" alt="gear"> 
+                 <p class="app-tabs__content-item-number">3</p>
+               </div>  
+                
+               <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">OVERDUE</h3>
+                <img class="app-tabs__content-item-img" src="images/triangle.svg" alt="triangle"> 
+                <p class="app-tabs__content-item-number">3</p>
+              </div>  
+               
+              <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">URGENT</h3>
+                <img class="app-tabs__content-item-img" src="images/flag.svg" alt="flag"> 
+                <p class="app-tabs__content-item-number">3</p>
+              </div>  
+               
+              <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">New Request</h3>   
+                <img class="app-tabs__content-item-img" src="images/request.svg" alt="reqest"> 
+              </div>  
+               
+              <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">Reporting</h3>
+                <img class="app-tabs__content-item-img" src="images/report.svg" alt="report"> 
+              </div>  
+               
+              <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">Administration</h3>
+                <img class="app-tabs__content-item-img" src="images/administration.svg" alt="administration"> 
+              </div> 
+
+            </div>
+             
+          </div> 
+          
+          <div class="app-tabs__content" id="tab-2">  
+            <div class="app-tabs__content-items">  
+
+               <div class="app-tabs__content-item"> 
+                 <h3 class="app-tabs__content-item-title">ACTIVE</h3> 
+                 <img class="app-tabs__content-item-img" src="images/gear.svg" alt="gear"> 
+                 <p class="app-tabs__content-item-number">3</p>
+               </div>  
+                
+               <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">OVERDUE</h3>
+                <img class="app-tabs__content-item-img" src="images/triangle.svg" alt="triangle"> 
+                <p class="app-tabs__content-item-number">3</p>
+              </div>  
+               
+              <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">URGENT</h3>
+                <img class="app-tabs__content-item-img" src="images/flag.svg" alt="flag"> 
+                <p class="app-tabs__content-item-number">3</p>
+              </div>  
+
+            </div>
+             
+          </div>     
+           
+          <div class="app-tabs__content" id="tab-3">  
+            <div class="app-tabs__content-items">  
+               
+              <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">New Request</h3>   
+                <img class="app-tabs__content-item-img" src="images/request.svg" alt="reqest"> 
+              </div>  
+               
+              <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">Reporting</h3>
+                <img class="app-tabs__content-item-img" src="images/report.svg" alt="report"> 
+              </div>  
+               
+            </div>
+             
+          </div>  
+           
+          <div class="app-tabs__content" id="tab-4">  
+            <div class="app-tabs__content-items">  
+               
+              <div class="app-tabs__content-item"> 
+                <h3 class="app-tabs__content-item-title">Administration</h3>
+                <img class="app-tabs__content-item-img" src="images/administration.svg" alt="administration"> 
+              </div> 
+               
+            </div>
+          </div> 
+
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="table"> 
+    <div class="container">  
+      <div class="table__title-wrapper">
+       <h5 class="table__title">Request List</h5>      
+       <a class="table__title-btn" href="#"> 
+        <img class="table__title-img" src="images/chevron-up-solid.svg" alt="chevron up">
+       </a>
+     </div>
+     <div class="table__main">   
+       
+      <div class="table__settings"> 
+        <div class="table__settings-radio">  
+
+           <div class="table__settings-radio-item">
+             <input class="table__settings-radio-btn"  tabindex="8" type="radio" name="radiobutton">  
+             <p class="table__settings-radio-name">All</p>
+           </div>  
+            
+           <div class="table__settings-radio-item">
+            <input class="table__settings-radio-btn"  tabindex="8" type="radio" name="radiobutton">  
+            <p class="table__settings-radio-name">Just Mine</p>
+          </div> 
+
+        </div> 
+        <div class="table__settings-usernav">  
+
+           <div class="table__settings-usernav-item"> 
+               <p class="table__settings-usernav-name table__settings-usernav-name--excel">Excel Download</p>
+           </div>  
+            
+           <div class="table__settings-usernav-item"> 
+             <p class="table__settings-usernav-name table__settings-usernav-name--filter">Filter</p>
+           </div>  
+            
+           <div class="table__settings-usernav-item"> 
+            <p class="table__settings-usernav-name table__settings-usernav-name--refresh">Refresh</p>
+          </div> 
+
+        </div>
+      </div>    
+
+      <table class="table__table">  
+        
+         <tr> 
+            <th>REF.</th> 
+            <th>TITLE</th> 
+            <th>SLA</th> 
+            <th>START DATE</th> 
+            <th>DUE DATE</th> 
+            <th>END DATE</th> 
+            <th>%COMPLETE</th> 
+            <th>STAGE</th> 
+            <th>STATUS</th>
+         </tr>  
+           
+         <tr> 
+          <td>00366</td>  
+          <td>Demo Requests for</td>  
+          <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+          <td>11/22/2022 12:00 AM</td>   
+          <td>11/22/2022 12:00 AM</td>   
+          <td>11/22/2022 12:00 AM</td>   
+          <td><div class="table__progress" >  
+               <div class="table__span" style="width: calc(100% - 0%)">  
+                  100 %
+               </div>  
+              </div> 
+          </td>  
+          <td></td>   
+          <td>Completed</td>  
+       </tr>   
+
+       <tr> 
+        <td>00365</td>  
+        <td>Demo Requests for</td>  
+        <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+        <td>11/22/2022 12:00 AM</td>   
+        <td>11/22/2022 12:00 AM</td>   
+        <td>11/22/2022 12:00 AM</td>   
+        <td><div class="table__progress" >  
+             <div class="table__span" style="width: calc(100% - 0%)">  
+                100 %
+             </div>  
+            </div> 
+        </td>  
+        <td></td>   
+        <td>Completed</td>  
+     </tr>  
+      
+     <tr> 
+      <td>00361</td>  
+      <td>Demo Requests for</td>  
+      <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+      <td>11/15/2022 12:00 AM</td>   
+      <td>11/15/2022 12:00 AM</td>   
+      <td>11/15/2022 12:00 AM</td>   
+      <td><div class="table__progress" >  
+           <div class="table__span" style="width: calc(100% - 0%)">  
+              100 %
+           </div>  
+          </div> 
+      </td>  
+      <td></td>   
+      <td>Completed</td>  
+   </tr>   
+
+   <tr> 
+    <td>00362</td>  
+    <td>Demo Requests for</td>  
+    <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+    <td>11/9/2022 12:00 AM</td>   
+    <td>11/9/2022 12:00 AM</td>   
+    <td>11/9/2022 12:00 AM</td>   
+    <td><div class="table__progress" >  
+         <div class="table__span" style="width: calc(100% - 0%)">  
+            100 %
+         </div>  
+        </div> 
+    </td>  
+    <td></td>   
+    <td>Completed</td>  
+ </tr>  
+  
+ <tr> 
+  <td>00359</td>  
+  <td>Demo Requests for</td>  
+  <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+  <td>11/10/2022 12:00 AM</td>   
+  <td>11/10/2022 12:00 AM</td>   
+  <td>11/10/2022 12:00 AM</td>   
+  <td><div class="table__progress" >  
+       <div class="table__span" style="width: calc(100% - 0%)">  
+          100 %
+       </div>  
+      </div> 
+  </td>  
+  <td></td>   
+  <td>Completed</td>  
+</tr>  
+ 
+<tr> 
+  <td>00359</td>  
+  <td>Demo Requests for</td>  
+  <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+  <td>11/14/2022 12:00 AM</td>   
+  <td>11/14/2022 12:00 AM</td>   
+  <td>11/14/2022 12:00 AM</td>   
+  <td><div class="table__progress" >  
+       <div class="table__span" style="width: calc(100% - 0%)">  
+          100 %
+       </div>  
+      </div> 
+  </td>  
+  <td></td>   
+  <td>Completed</td>  
+</tr>  
+ 
+<tr> 
+  <td>00358</td>  
+  <td>Demo Requests for</td>  
+  <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+  <td>11/14/2022 12:00 AM</td>   
+  <td>11/14/2022 12:00 AM</td>   
+  <td></td>   
+  <td><div class="table__progress " >  
+       <div class="table__span table__span--different" style="width: calc(100% - 65%)">  
+          25 %
+       </div>  
+      </div> 
+  </td>  
+  <td></td>   
+  <td>Active</td>  
+</tr>  
+ 
+<tr> 
+  <td>00357</td>  
+  <td>Demo Requests for</td>  
+  <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+  <td>11/14/2022 12:00 AM</td>   
+  <td>11/14/2022 12:00 AM</td>   
+  <td>11/14/2022 12:00 AM</td>   
+  <td><div class="table__progress " >  
+       <div class="table__span" style="width: calc(100% - 0%)">  
+          100 %
+       </div>  
+      </div> 
+  </td>  
+  <td>License Approval</td>   
+  <td>Completed</td>  
+</tr>  
+ 
+<tr> 
+  <td>00355</td>  
+  <td>Demo Requests for</td>  
+  <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+  <td>11/14/2022 12:00 AM</td>   
+  <td>11/14/2022 12:00 AM</td>   
+  <td>11/14/2022 12:00 AM</td>   
+  <td><div class="table__progress " >  
+       <div class="table__span" style="width: calc(100% - 0%)">  
+          100 %
+       </div>  
+      </div> 
+  </td>  
+  <td>License Approval</td>   
+  <td>Completed</td>  
+</tr>  
+ 
+<tr> 
+  <td>00354</td>  
+  <td>Demo Requests for</td>  
+  <td><img class="table__check" src="images/circle-check-regular.svg" alt="check"></td>  
+  <td>11/14/2022 12:00 AM</td>   
+  <td>11/14/2022 12:00 AM</td>   
+  <td>11/14/2022 12:00 AM</td>   
+  <td><div class="table__progress " >  
+       <div class="table__span" style="width: calc(100% - 0%)">  
+          100 %
+       </div>  
+      </div> 
+  </td>  
+    <td>License Approval</td>   
+    <td>Completed</td>  
+  </tr>   
+  
+      </table> 
+       
+      <div class="table__pagination"> 
+        <a class="table__pagination-prev table__pagination-link" href="#"> 
+         <img class="table__pagination-prev-img" src="images/prev-arrow.svg" alt="prev arrow">
+        </a>  
+          <ul class="table__pagination-list"> 
+           <li class="table__pagination-item"> 
+             <a class="table__pagination-link" href="#">1</a> 
+           </li> 
+            
+           <li class="table__pagination-item"> 
+             <a class="table__pagination-link" href="#">2</a> 
+           </li> 
+            
+           <li class="table__pagination-item"> 
+             <a class="table__pagination-link table__pagination-link--active" href="#">3</a> 
+           </li>    
+            
+           <li class="table__pagination-item"> 
+            <a class="table__pagination-link" href="#">. . .</a> 
+          </li>   
+               
+          </ul>
+        <a class="table__pagination-next table__pagination-link" href="#"> 
+           <img class="table__pagination-next-img" src="images/next-arrow.svg" alt="next arrow">
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script src="js/main.min.js"></script>
+  <script src="country-picker-flag/js/countrySelect.js"></script> 
+ 
+</body>
+
+</html>
